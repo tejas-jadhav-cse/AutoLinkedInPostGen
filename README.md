@@ -1,21 +1,27 @@
-# 🧠 AutoLinkedInPostGen
+# 🔁 AutoLinkedInPostGen
 
-Generate LinkedIn posts based on trending dev topics using Hacker News & AI prompts.
+🚀 A React-based tool that auto-generates engaging LinkedIn posts based on trending tech topics — powered by OpenAI (GPT-3.5) and Hacker News API.
 
-## Features
-- Gets top topics from Hacker News API
-- Auto-generates LinkedIn post content
-- Easy to copy, tweak, and post!
+## ✨ Features
 
-## Tech Stack
-- HTML/CSS/JS
+- 🔥 Fetches top trending tech topics from Hacker News
+- 🤖 Uses OpenAI's GPT API to generate high-quality LinkedIn post content
+- 🧠 Optional: Input your own topic manually
+- 📋 Clean UI, copy-paste-ready content
+
+## 🧰 Tech Stack
+
+- React + TailwindCSS (via ShadCN UI)
+- OpenAI API (ChatGPT)
 - Hacker News API
-- ChatGPT prompt engine (optional)
+- Lucide Icons
 
-## How to Run
-1. Clone the repo
-2. Open `index.html` in browser
-3. Click "Get Post" and boom 💥
+---
 
-## Demo Screenshot
-![demo](preview.png)
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/AutoLinkedInPostGen.git
+cd AutoLinkedInPostGen
+npm install
+npm run dev
